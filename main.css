@@ -1,0 +1,32 @@
+.cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.card_item{
+    border-radius: 33px;
+    border: black solid 5px;
+    margin: 10px;
+    padding:10px;
+    width: 400px;
+    min-height: 704px;
+    background: linear-gradient(45deg,rgb(52, 183, 235),white);
+}
+h1{
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+.carousel-item img{
+    height: 300px;
+    object-fit: cover;
+}
+.card_item:hover {
+    box-shadow: 0 0 30px rgb(224, 191, 2);
+}
+body{
+    background: linear-gradient(30deg, green,white);
+}
